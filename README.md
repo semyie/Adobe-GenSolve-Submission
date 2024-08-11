@@ -1,14 +1,13 @@
-#Adobe GenSolve Submission
-
 ---
-
-# 🖼️ Beautify and Visualize Curves from CSV Files
+# 🖼️ Adobe GenSolve - Beautify and Visualize Curves from CSV Files - Round 2 Submission
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![Colab](https://img.shields.io/badge/Google-Colab-blue.svg)
 
 This repository provides a Jupyter Notebook that takes in a CSV file containing XY path coordinates, processes the curves by detecting symmetry, completing incomplete curves, and beautifying them. The results are then visualized and saved in multiple formats including PNG, SVG, and CSV.
+
+![Adobe GenSolve Round 2](https://github.com/user-attachments/assets/de3cee7f-c506-4119-ab32-4f9a106a058e)
 
 ## 🌟 Features
 
