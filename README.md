@@ -85,13 +85,13 @@ This command will display the PNG image within the notebook.
 
 ## 📊 Dataset
 
-The input data consists of XY path coordinates, formatted as described earlier. You can find a sample dataset [here](https://github.com/yourusername/dataset-link).
+The input data consists of XY path coordinates, formatted as described earlier. You can find the **Reference dataset** [here]([https://github.com/yourusername/dataset-link](https://drive.google.com/drive/folders/1B5DDLEI8RdfvWtoE1sC_utNQouIgo3fG?usp=drive_link)).
 
-## 🎨 Example Outputs
+## 🎨 Inputs
 
-Here’s an example of the beautified curves displayed as a PNG image:
+Here is the problem statement document
 
-![Output Example](output.png)
+![Document][(output.png](https://drive.google.com/file/d/1zc9F2EORDpCi7LFMRhTyWa8x3NlEQxoi/view?usp=drive_link))
 
 ## 🛠️ Dependencies
 
