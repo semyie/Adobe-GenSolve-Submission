@@ -1,11 +1,12 @@
 ---
-# 🖼️ Adobe GenSolve - Curve Detection and Regularization from CSV Files - Round 2 Submission
+
+# 🖼️ Adobe GenSolve - Curve Detection, Regularization, and Occlusion Handling from CSV Files - Round 2 Submission
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![Colab](https://img.shields.io/badge/Google-Colab-blue.svg)
 
-This repository contains a Jupyter Notebook designed to detect, regularize, and enhance curves from a dataset of XY path coordinates stored in CSV files. The notebook processes the curves by identifying geometric shapes, detecting symmetry, and completing incomplete curves. The results are then visualized and saved in multiple formats, including PNG, SVG, and CSV.
+This repository contains a Jupyter Notebook designed to detect, regularize, and enhance curves from a dataset of XY path coordinates stored in CSV files. The notebook processes the curves by identifying geometric shapes, detecting symmetry, handling occlusions, and completing incomplete curves. The results are then visualized and saved in multiple formats, including PNG, SVG, and CSV.
 
 ![Adobe GenSolve Round 2](https://github.com/user-attachments/assets/de3cee7f-c506-4119-ab32-4f9a106a058e)
 
@@ -14,6 +15,7 @@ This repository contains a Jupyter Notebook designed to detect, regularize, and 
 - **Curve Detection:** Identify geometric shapes (e.g., circles, rectangles) within the input data.
 - **Regularization:** Automatically refine and regularize detected shapes for better accuracy.
 - **Symmetry Detection:** Detect and apply symmetry to enhance the aesthetic of curves.
+- **Occlusion Handling:** Identify and reconstruct curves that are partially occluded or missing sections.
 - **Curve Completion:** Complete incomplete curves and ensure all paths are fully closed.
 - **Multiple Output Formats:** Save the processed and regularized curves as CSV, PNG, and SVG files.
 - **Visualization:** Display the regularized curves directly in the notebook as a PNG image.
@@ -53,8 +55,9 @@ Once the CSV file is uploaded, the code will process the paths and beautify the 
 
 1. **Regularize Shapes:** Identify shapes (like triangles, rectangles, circles) and regularize them.
 2. **Detect Symmetry:** Find and apply symmetry where possible.
-3. **Complete Curves:** Ensure all curves are closed if necessary.
-4. **Beautify Curves:** Final adjustments to enhance the curves' appearance.
+3. **Handle Occlusions:** Reconstruct curves that are partially occluded or missing sections.
+4. **Complete Curves:** Ensure all curves are closed if necessary.
+5. **Beautify Curves:** Final adjustments to enhance the curves' appearance.
 
 ### Step 5: View and Save the Results
 
@@ -76,11 +79,13 @@ This command will display the PNG image within the notebook.
 
 ## 📂 Output Formats
 
-- **CSV:** `beautified_curves.csv` - The final XY coordinates.
+- **CSV:** `beautified_curves.csv` - The final XY coordinates after detection, regularization, and occlusion handling.
 - **PNG:** `output.png` - A raster image of the beautified curves.
 - **SVG:** `output.svg` - A vector image of the beautified curves.
 
 ## 📊 Dataset
+
+The input data consists of XY path coordinates, formatted as described earlier. You can find a sample dataset [here](https://github.com/yourusername/dataset-link).
 
 ## 🎨 Example Outputs
 
