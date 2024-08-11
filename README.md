@@ -1,20 +1,22 @@
 ---
-# 🖼️ Adobe GenSolve - Beautify and Visualize Curves from CSV Files - Round 2 Submission
+# 🖼️ Adobe GenSolve - Curve Detection and Regularization from CSV Files - Round 2 Submission
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![Colab](https://img.shields.io/badge/Google-Colab-blue.svg)
 
-This repository provides a Jupyter Notebook that takes in a CSV file containing XY path coordinates, processes the curves by detecting symmetry, completing incomplete curves, and beautifying them. The results are then visualized and saved in multiple formats including PNG, SVG, and CSV.
+This repository contains a Jupyter Notebook designed to detect, regularize, and enhance curves from a dataset of XY path coordinates stored in CSV files. The notebook processes the curves by identifying geometric shapes, detecting symmetry, and completing incomplete curves. The results are then visualized and saved in multiple formats, including PNG, SVG, and CSV.
 
 ![Adobe GenSolve Round 2](https://github.com/user-attachments/assets/de3cee7f-c506-4119-ab32-4f9a106a058e)
 
 ## 🌟 Features
 
-- **CSV Input:** Easily upload your CSV file containing XY coordinates using a file selection button.
-- **Curve Beautification:** Automatically regularizes shapes, detects symmetry, and completes curves.
-- **Multiple Output Formats:** Save the processed curves as CSV, PNG, and SVG files.
-- **Visualization:** Display the beautified curves directly in the notebook as a PNG image.
+- **Curve Detection:** Identify geometric shapes (e.g., circles, rectangles) within the input data.
+- **Regularization:** Automatically refine and regularize detected shapes for better accuracy.
+- **Symmetry Detection:** Detect and apply symmetry to enhance the aesthetic of curves.
+- **Curve Completion:** Complete incomplete curves and ensure all paths are fully closed.
+- **Multiple Output Formats:** Save the processed and regularized curves as CSV, PNG, and SVG files.
+- **Visualization:** Display the regularized curves directly in the notebook as a PNG image.
 
 ## 🚀 How to Use
 
@@ -77,6 +79,8 @@ This command will display the PNG image within the notebook.
 - **CSV:** `beautified_curves.csv` - The final XY coordinates.
 - **PNG:** `output.png` - A raster image of the beautified curves.
 - **SVG:** `output.svg` - A vector image of the beautified curves.
+
+## 📊 Dataset
 
 ## 🎨 Example Outputs
 
