@@ -104,5 +104,3 @@ pip install numpy matplotlib svgwrite opencv-python-headless scipy
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ---
-
-This README file provides clear instructions for using the notebook, making it easy for users to input their own files and view the results. It also uses emojis, badges, and visual elements to make the content more engaging.
