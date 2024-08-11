@@ -23,8 +23,8 @@ This repository contains a Jupyter Notebook designed to detect, regularize, and 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Beautify-Curves.git
-cd Beautify-Curves
+git clone [https://github.com/yourusername/Beautify-Curves.git](https://github.com/semyie/Adobe-GenSolve-Submission)
+cd Notebook
 ```
 
 ### Step 2: Install Dependencies
