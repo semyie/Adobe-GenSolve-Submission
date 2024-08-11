@@ -1,0 +1,5 @@
+numpy
+matplotlib
+svgwrite
+opencv-python-headless
+scipy
